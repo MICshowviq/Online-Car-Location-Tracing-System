@@ -1,0 +1,21 @@
+arduiniana.org/libraries/tinygpsplus/
+https://github.com/mikalhart/TinyGPSPlus/releases
+Sketch >> Include Library >> Add .ZIP Library... >> select the download zip file what is TinyGPSPlus >> Open
+
+github.com/esp8266/arduino
+File> Preferance > paste and ok
+https://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+then go to tools
+Board: Arduino Due (P port) >> Boards Manager >> search esp8266 >> install
+
+Copy the code then
+
+Tools >> Port >> which port are connected select
+Tools >> Board: >> Select "NodeMCU 1.0 (ESP-12E Module)"
+
+Then upload the code >
+
+In the serial monitor >> select 115200 baud
+
+next one 96 and no 
